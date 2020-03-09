@@ -1,0 +1,174 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Site de restauration 3ilienne">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="shortcut icon" href="img/3illogo.png">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Dancing+Script|Pacifico|Raleway&display=swap" rel="stylesheet">
+    
+    
+
+
+    <title>3ilShop</title>
+  </head>
+  <body id="haut">
+      
+      <!--**********************BARRE DE NAVIGATION**********************************************-->
+      <header>
+          
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <!--a class="navbar-brand" href="#haut"--><!--/3ilSHOPa-->
+                <a class="navbar-brand" href="#haut">
+                    <img src="img/3illogo.png" alt="Logo 3ilSHOP">3ilSHOP
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#Connexion">Connexion<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Accueil">Page d'accueil </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#Menu" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#Boisson ">Choix des boissons </a>
+                        <a class="dropdown-item" href="#Viennoiseries">Viennoiseries</a>
+                        <a class="dropdown-item" href="#Sandwich">Sandwich</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#Panier">Panier</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact </a>
+                        <!--a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"--><!--/a-->
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#Avis">Avis</a>
+                           
+                        </li>
+                  </ul>
+                </div>
+        </nav>
+      </header>
+              <!--*************************HEADER******************************************-->
+
+<div class="container-fluid base" >
+  <div class="row d-flex align-items-center">
+      <div class="col-7 col-md-6" >
+      <!--*************************Form connexion******************************************-->
+      <span><h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Connexion</h1></span>
+      
+     
+      <!--*************************Fin form connexion******************************************-->
+
+
+      <form action="" method="post" name="login" >
+          <div class="form-group">
+             <label for="exampleInputEmail1" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Nom d'utilisateur</label>
+             <input type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Nom d'utilisateur 3il">
+          </div>
+          <div class="form-group">
+             <label for="exampleInputEmail1">Mot de passe</label>
+             <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="MDP">
+          </div>
+          <div class="col-md-12 text-center ">
+             <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Login</button>
+          </div>
+          <div class="col-md-12 ">
+             <div class="login-or">
+                <hr class="hr-or">
+                <span class="span-or">or</span>
+             </div>
+          </div>
+          <div class="col-md-12 mb-3">
+             <p class="text-center">
+                <a href="#Administrateur" class="admin btn mybtn"><i class="fa fa-admin-plus">
+                </i> Mode administrateur
+                </a>
+             </p>
+          </div>
+          <div class="form-group">
+             <p class="text-center">Mot de passe oublié ?  <a href="#" id="signup">   Nous contacter</a></p>
+          </div>
+   </form>
+
+         <!--*************************Fin form 2connexion******************************************-->
+
+
+      </div>
+      <div class="col-15 col-md-6 d-flex align-items-center">
+          
+            Ce site a été conçu pour faciliter la gestion des commandes à la cafeteria pour le bien être des étudiants de 3il
+          <h2 style="text-align: center;" >Mode d'emploi</h2>
+          <p class="text-justify">
+              <ol>
+                <li>Se connecter en tant qu'administrateur(pour des membres du BDE) ou utilisateur(pour passer une commande)</li>
+                <li>Faire son choix</li>
+                <li>Valider la commande après avoir verifié le panier</li>
+              </ol>
+              <div>
+                <p>             
+                  <a href="#Avis">Plus d'infos</a>
+                </p>
+              </div>
+          </p>
+          </div>
+      
+          
+          <!--**********************avis debut**********************************************-->
+      
+
+          <!--**********************Avis fin**********************************************-->
+
+  </div> 
+
+</div>
+<div class="container-fluid" id="Avis">
+    <div class="row">
+      <div class="col-10 col-md-6 nomEtudiant ">
+        <span>
+          <h3 class="my-4 " style="text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;">Laetitia -I2G2</h3>
+        </span>  
+         
+          
+    </div>
+    <div class="col-14 col-md-6 avisEtudiant" style="text-justify: auto; ">
+      
+      <!--span><i class="fas fa-quote-right"></i></span-->
+      <span>
+        <ul>
+          <li>"C'est clairement mieux que de descendre au foyer pour attendre la preparation
+              de sa commande juste après avoir patienté pour passer la commande."
+          </li>
+
+      </ul>
+      </span>
+      
+      
+    </div>
+  </div>
+  </div>    
+
+ 
+    <!--h1 style="text-align: center;">Choix des boissons<--/h1>
+   
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

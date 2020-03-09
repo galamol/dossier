@@ -1,0 +1,59 @@
+<div class="gestion-ticket col-14 col-md-7 ">
+        <!------------------------>
+          
+          <!------ Include the above in your HEAD tag ---------->
+
+          <div class="container">
+          <a class="btn icon-btn btn-success" href="#"><span class="glyphicon btn-glyphicon glyphicon-plus img-circle text-success"></span>Ajouter un incident</a>
+          <a class="btn icon-btn btn-warning" href="#"><span class="glyphicon btn-glyphicon glyphicon-minus img-circle text-warning"></span>Supprimer un incident</a>
+          </div>
+          
+ <!------------------------>
+
+            
+
+
+      </div>
+<div class="container-fluid" id="As">
+  <div class="row  align-items-center my-4">
+    <div class="col-md-6">
+        <a href="#liste1" class="list-group-item list-group-item-action active ">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Ticket n1</h5>
+            <small>Envoyé il y a 3 jours</small>
+          </div>
+          <p class="mb-1">Statut:envoyé/traité/supprimé</p>
+         
+        </a>
+        <a href="#liste2" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Ticket n2</h5>
+            <small class="text-muted">Envoyé il y a 3 jours</small>
+          </div>
+          <p class="mb-1">Statut:envoyé/traité/supprimé</p>
+          
+        </a>
+        <a href="#liste3" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">Ticket n3</h5>
+            <small class="text-muted">Envoyé il y a 3 jours</small>
+          </div>
+          <p class="mb-1">Statut:envoyé/traité/supprimé</p>
+          
+        </a>
+      </div>
+      <div class="col-md-6 ">
+        <!------------------------>
+          
+          <!------ Include the above in your HEAD tag ---------->
+
+         
+          <a class="btn icon-btn btn-success" href="#Ajoutlist"><span class="glyphicon btn-glyphicon glyphicon-plus img-circle text-success"></span>Ajouter un incident</a>
+          <a class="btn icon-btn btn-warning" href="#Deletelist"><span class="glyphicon btn-glyphicon glyphicon-minus img-circle text-warning"></span>Supprimer un incident</a>
+          
+          
+ <!------------------------>
+
+   </div> 
+</div>       
+ </div>

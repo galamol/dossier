@@ -1,0 +1,35 @@
+
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+h1{
+    color:burlywood;
+    font-family: 'Pacifico', cursive;
+}
+
+body {padding-top:4.2rem;
+    padding-bottom:4.2rem;
+}
+.navbar-brand img{
+    height: 35px;
+    
+}
+.navbar{
+    color: wheat;
+}
+.base.row.col-7 span{
+    font-family: 'Pacifico', cursive;
+}
+
+
+.header.navbar{
+    transition: all .8s ease-in-out;
+   
+}
+#Avis{
+    min-height: calc(100vh-10px);
+}
+#Listeincident{
+    
+        min-height: calc(100vh-10px);
+    
+}

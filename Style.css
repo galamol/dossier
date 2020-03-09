@@ -1,0 +1,156 @@
+
+
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+
+h1{
+    color:burlywood;
+    font-family: 'Pacifico', cursive;
+}
+.navbar-brand img{
+    height: 35px;
+    
+}
+.navbar{
+    color: wheat;
+}
+.base.row.col-7 span{
+    font-family: 'Pacifico', cursive;
+}
+
+
+.header.navbar{
+    transition: all .8s ease-in-out;
+   
+}
+
+.avisEtudiant span{
+    font-size: 2rem;
+    color:black;
+}
+
+#Avis.col-12{
+    background-color: palegoldenrod;
+}
+.login-block{
+    background: #DE6262;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+float:left;
+width:100%;
+padding : 50px 0;
+}
+.col-15{background:url(img/3ilmenu.jpg)  no-repeat left bottom; background-size:cover; min-height: 60vw;; border-radius: 12px 12px 12px 12px; padding:10px;color:white;font-family: 'Pacifico', cursive;
+}
+.col-15 .h2{
+font-family: 'Pacifico', cursive;
+}
+.container{background:#fff; border-radius: 10px; box-shadow:15px 20px 0px rgba(0,0,0,0.1);}
+
+.carousel-inner{border-radius:0 10px 10px 0;}
+.carousel-caption{text-align:left; left:5%;}
+.login-sec{padding: 50px 30px; position:relative;}
+.login-sec .copy-text{position:absolute; width:80%; bottom:20px; font-size:13px; text-align:center;}
+.login-sec .copy-text i{color:#FEB58A;}
+.login-sec .copy-text a{color:#E36262;}
+.login-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: #DE6262;}
+.login-sec h2:after{content:" "; width:100px; height:5px; background:#FEB58A; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+.btn-login{background: orangered; color:white; font-weight:600;}
+.banner-text{width:70%; position:absolute; bottom:40px; padding-left:20px;}
+.banner-text h2{color:#fff; font-weight:600;}
+.banner-text h2:after{content:" "; width:100px; height:5px; background:#FFF; display:block; margin-top:20px; border-radius:3px;}
+.banner-text p{color:#fff;}
+
+
+
+
+
+body{
+    
+    padding-top:4.2rem;
+    padding-bottom:4.2rem;
+    background:rgba(49, 51, 68, 0.76);
+    }
+    .header.h2{
+        font-family: 'Anton', sans-serif;
+
+    }
+    a{
+     text-decoration:none !important;
+     }
+     h1,h2,h3{
+     font-family: 'Kaushan Script', cursive;
+     }
+      .myform{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 1.1rem;
+    outline: 0;
+    max-width: 500px;
+     }
+     .tx-tfm{
+     text-transform:uppercase;
+     }
+     .mybtn{
+     border-radius:50px;
+     }
+    
+     .login-or {
+     position: relative;
+     color: #aaa;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     }
+     .span-or {
+     display: block;
+     position: absolute;
+     left: 50%;
+     top: -2px;
+     margin-left: -25px;
+     
+     width: 50px;
+     text-align: center;
+     }
+     .hr-or {
+     height: 1px;
+     margin-top: 0px !important;
+     margin-bottom: 0px !important;
+     }
+     .Aka.bka{
+         background-color: blueviolet;
+     }
+     .admin {
+     color:rgb(245, 223, 223);
+     width:100%;
+     height:40px;
+     text-align:center;
+     outline:none;
+     border: 1px solid lightgrey;
+     }
+      form .error {
+     color: #ff0000;
+     }
+     #second{display:none;}
+     .jumbotron {
+        background: #358CCE;
+        color: #FFF;
+        border-radius: 0px;
+        }
+        .jumbotron-sm { padding-top: 24px;
+        padding-bottom: 24px; }
+        .jumbotron small {
+        color: #FFF;
+        }
+        .h1 small {
+        font-size: 24px;
+        }
